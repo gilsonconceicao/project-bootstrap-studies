@@ -6,15 +6,13 @@ window.sr = ScrollReveal({
 
 /* index reveal */
 
-sr.reveal('#intro', {
-    duration: 2000, 
-    rotate: {
-        x: 20, y: 100, z: 10
-    }
+sr.reveal('#intro img', {
+    duration: 1500, 
+    origin: 'bottom'
 })
 
 sr.reveal('.title-init', {
-    duration: 3000, 
+    duration: 1500, 
     origin: 'left'
 })
 
